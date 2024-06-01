@@ -23,6 +23,7 @@
 
 .contact-info__block--center {
   justify-content: center;
+  margin-right: 110px;
 }
 
 .contact-info__item {
@@ -54,9 +55,16 @@
 
 .contact-info__avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border: 3px solid;
   border-color: var(--text-decoration-color);
+}
+
+@media screen and (max-width: 576px) {
+  .contact-info__block--center {
+    justify-content: center;
+    margin-right: 0px;
+  }
 }

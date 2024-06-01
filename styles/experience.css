@@ -1,11 +1,20 @@
-experiences {
-  flex: 1 1 60%;
-  margin-right: 50px;
+.experiences {
+  display: block;
+  width: 20%;
+}
+
+.hobby{
+  display: block;
+  width: 40%;
+}
+.hobby__text {
+  line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 .experiences__header {
   color: var(--secondary-text-color);
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -47,10 +56,6 @@ experiences {
   padding-left: 20px;
 }
 
-.additional-info {
-  flex: 1 1 40%;
-}
-
 .additional-info__education {
   margin-bottom: 20px;
 }
@@ -79,6 +84,7 @@ experiences {
 }
 
 .additional-info__languages {
+  display: block;
   margin-bottom: 20px;
 }
 
@@ -90,4 +96,40 @@ experiences {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+@media screen and (max-width: 576px) {
+  .experiences {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid var(--border-color);
+  }
+
+  .additional-info__education-header {
+    text-align: center;
+  }
+  .additional-info__education-university-speciality {
+    text-align: center;
+  }
+  
+  .hobby{
+    display: block;
+    width: 100%;
+    border-bottom: 3px solid var(--border-color);
+  }
+
+  .hobby__text {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .additional-info__languages-header{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .additional-info__languages {
+    text-align: center;
+  }
 }
