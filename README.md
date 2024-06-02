@@ -1,7 +1,7 @@
 # alexxx-homepage
 My first personal website. Basically it is just a résumé.
 
-[DEMO LINK](https://nevox-alexxx.github.io/alexxx-homepage/) 
+[DEMO LINK](https://nevox-alexxx.github.io/homepage/) 
 
 ### Main completed tasks
 
